@@ -1,8 +1,14 @@
 import 'package:bapu/pages/main_page.dart';
 import 'package:bapu/theme/theme_data.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+    statusBarColor: Colors.transparent, // 투명색
+    systemNavigationBarColor: Colors.transparent,
+  ));
+
   runApp(const MyApp());
 }
 

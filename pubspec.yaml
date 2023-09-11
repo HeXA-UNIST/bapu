@@ -40,6 +40,12 @@ dependencies:
   flutter_svg: ^2.0.7
   naver_map_plugin:
     git: https://github.com/LBSTECH/naver_map_plugin.git
+  url_launcher: ^6.1.12
+  filter_list: ^1.0.2
+  shared_preferences: ^2.2.1
+  photo_view: ^0.14.0
+  http: ^1.1.0
+  flutter_native_splash: ^2.3.2
 
   
 dev_dependencies:
@@ -69,6 +75,8 @@ flutter:
     - assets/images/small_logo.png
     - assets/images/small_logo.svg
     - assets/images/green_letterless_logo.svg
+    - assets/images/brand.png
+    - assets/images/android12_logo.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 

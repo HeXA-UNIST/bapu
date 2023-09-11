@@ -39,7 +39,9 @@ class CustomTabBar extends StatelessWidget {
             controller: _tabController,
             labelStyle:
                 const TextStyle(fontWeight: FontWeight.w800, fontSize: 15),
-            tabs: <Widget>[for (String menu in menuList) Text(menu)],
+            tabs: <Widget>[
+              for (String menu in menuList) Text(menu),
+            ],
           ),
         ),
       ),
